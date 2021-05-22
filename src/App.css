@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button,
+a,
+input {
+  outline: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  background: #f8f8f8;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.row {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+  margin: 12px 0;
+  align-items: flex-end;
+}
+
+.content {
+  max-width: 100%;
+  min-height: 86vh;
+  background: #ffffff;
+  margin: 35px 45px;
+}
+
+.cancel__btn {
+  display: block;
+  float: right;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #828282;
+  padding: 7px;
+  width: 28px;
+}
+.cancel__btn:hover {
+  background: #ececec;
+}
+
+.add__btn {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin: 15px auto;
+  width: 34px;
+  height: 34px;
+  background: #f2f2f2;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 50px;
+  cursor: pointer;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.add__btn:hover {
+  background: #e0e0e0;
 }

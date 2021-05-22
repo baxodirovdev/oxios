@@ -1,0 +1,105 @@
+.setPost {
+  width: 80%;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.post__label {
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+  cursor: pointer;
+}
+
+.post__input {
+  background: #ffffff;
+  border: 1px solid #e3e3e3;
+  box-sizing: border-box;
+  border-radius: 4px;
+  height: 34px;
+  margin: 2px 10px 2px 0;
+  cursor: pointer;
+  padding-left: 6px;
+}
+.post__input:focus {
+  border: 3px solid #56ccf2;
+}
+
+.input-large {
+  width: 298px;
+}
+.input-medium {
+  width: 160px;
+}
+.input-small {
+  width: 107px;
+}
+
+.post__subTitle {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  margin-bottom: 2px;
+}
+
+.post__work {
+  display: flex;
+}
+.post__work-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  background: #f2f2f2;
+  border: 1px solid #e3e3e3;
+}
+.post__work-text {
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #e3e3e3;
+  padding: 8px 10px 3px;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+}
+.post__work-delete {
+  width: 33px;
+  background: #f2f2f2;
+  border: 1px solid #e3e3e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.post__work-delete:hover {
+  background: #e0e0e0;
+}
+
+.post__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.formSubmit__btn {
+  display: block;
+  margin: 150px auto 0;
+  width: 157px;
+  height: 36px;
+  background: #27ae60;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+.formSubmit__btn:hover {
+  background: #6fcf97;
+}

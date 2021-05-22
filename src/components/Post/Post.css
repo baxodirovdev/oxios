@@ -1,0 +1,35 @@
+.post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100%;
+}
+.post__title {
+  margin: 28px 0;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #938686;
+}
+
+.post__content {
+  width: 1083px;
+}
+
+.post__create-btn {
+  background: #f2f2f2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+  text-decoration: none;
+  color: #000000;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 10px;
+}
+.post__create-btn:hover {
+  background: #e0e0e0;
+  box-shadow: none;
+}
+
+
